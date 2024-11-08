@@ -72,7 +72,7 @@ a:hover {
 .information {
   margin: 0 auto;
   margin-top: 70px;
-  height: 140vh;
+  height: 130vh;
   width: 900px;
   display: flex;
   justify-content: center;
@@ -82,7 +82,7 @@ a:hover {
 
 .info {
   width: 600px;
-  height: 140vh;
+  height: 130vh;
   background-color: white;
   /* background-color: seagreen; */
 }
@@ -148,8 +148,28 @@ a:hover {
   width: 50%;
 }
 
+#FirstName {
+  width: 16vw;
+  height: 3vh;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  background-color: #edeff2;
+}
+
 .last-name {
   width: 50%;
+}
+
+#LastName {
+  width: 16vw;
+  height: 3vh;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  background-color: #edeff2;
 }
 
 .E-mail {
@@ -160,13 +180,23 @@ a:hover {
 }
 
 #Email {
-  height: 5vh;
-  width: 25vw;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  background-color: #edeff2;
+  height: 3vh;
+  width: 27vw;
 }
 
 #credit-info {
-  height: 5vh;
-  width: 35vw;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  background-color: #edeff2;
+  height: 3vh;
+  width: 36vw;
 }
 
 .index-I {
@@ -224,29 +254,32 @@ a:hover {
 button {
   background-color: #038e7d;
   height: 8vh;
-  width: 36vw;
+  width: 35vw;
+  border-radius: 3px;
 }
 
 .wp-contact {
   display: flex;
-  width: 21.2vw;
+  width: 23vw;
   justify-content: space-between;
   /* background-color: pink; */
 }
 
 .wp-contactI {
   position: relative;
-  top: -10px;
+  top: -12px;
+  left: -8px;
   /* background-color: red; */
 }
 
 .wp-contactII {
-  background-color: none;
+  width: 23vw;
+  /* background-color: blue; */
 }
 
 .price {
   width: 300px;
-  height: 140vh;
+  height: 130vh;
   background-color: #1179bf;
 }
 
@@ -258,6 +291,8 @@ button {
   flex-direction: column;
   justify-content: space-around;
   /* background-color: aqua; */
+  position: relative;
+  bottom: -12px;
 }
 
 .section1 {
@@ -372,9 +407,20 @@ button {
 .finalNoteImg {
   display: flex;
   flex-direction: row;
+  /* background-color: aqua; */
 }
 
+.kirkBeard {
+  border-radius: 50%;
+  height: 9vh;
+  width: 36px;
+  border-radius: 100%;
+}
+
+
 .finalNoteImgP {
+  position: relative;
+  right: -9px;
   color: white;
 }
 
@@ -393,9 +439,21 @@ button {
 .cpn-info {
   margin: 0 auto;
   height: 9vh;
-  width: 300px;
+  width: 350px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   /* background-color: chartreuse; */
+}
+
+.dot {
+  
+  padding-left: 9px;
+  padding-right: 9px ;
+}
+
+.dotP {
+  color: #1179bf;
 }
 
 @media (max-width: 480px) {
@@ -645,8 +703,17 @@ button {
   .wp-contactI {
     position: relative;
     top: -10px;
+    left: 0px;
     /* background-color: red; */
   }
+
+  
+  .wp-contactII {
+    font-size: small;
+    width: 75vw;
+    /* background-color: blue; */
+  }
+  
 
   .price {
     width: 90vw;
@@ -683,6 +750,29 @@ button {
   .finalHr {
     width: 90vw;
   }
+
+  .finalNoteImg {
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+  }
+  
+  .kirkBeard {
+    border-radius: 50%;
+    height: 9vh;
+    width: 36px;
+    border-radius: 100%;
+  }
+  
+  
+  .finalNoteImgP {
+    position: relative;
+    right: -9px;
+    bottom: -12px;
+    color: white;
+    /* background-color: red; */
+  }
+  
 
   .company-info {
     margin: 0 auto;
